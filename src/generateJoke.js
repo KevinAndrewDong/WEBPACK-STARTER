@@ -1,5 +1,15 @@
+import axios from "axios";
+
 function generateJoke() {
-  return "建国见过，见过建国";
+  const config = {
+    headers: {
+      Accept: "application/json",
+    },
+  };
+
+  axios
+    .get("https://icanhazdadjoke.com", config)
+    .then((res) => (document.getElementById("joke").innerHTML = res.data.joke));
 }
 
 export default generateJoke;

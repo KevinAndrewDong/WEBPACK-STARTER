@@ -1,5 +1,5 @@
 # WEBPACK-STARTER
-feat:
+使用了以下特性搭载js运行环境：  
 Babel Loader  
 Sass Loader With Dart Sass  
 HTMLWebpackPlugin  

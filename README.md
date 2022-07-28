@@ -1,4 +1,4 @@
-# WEBPACK-STARTER
+# 随机笑话页面
 
 实现单页面，点击出现下一条笑话
 ![](https://i.bmp.ovh/imgs/2022/07/29/d8b2b7976ed4bee8.png)

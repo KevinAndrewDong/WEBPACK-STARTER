@@ -1,35 +1,25 @@
-# Webpack App Starter
+# 随机笑话页面
+[![ax1dC.md.png](https://s1.328888.xyz/2022/08/31/ax1dC.md.png)](https://imgloc.com/i/ax1dC)
 
-Frontend environment for building JavaScript applications
+使用了以下特性搭载运行环境：  
+Babel Loader  
+Sass Loader With Dart Sass  
+HTMLWebpackPlugin  
+WebpackDevServer  
+Asset Resource Loader  
+Source Maps  
+Caching
 
-Includes the following features...
+## 使用
 
-- Babel Loader
-- Sass Loader With Dart Sass
-- HTMLWebpackPlugin
-- WebpackDevServer
-- Asset Resource Loader
-- Source Maps
-- Caching
-
-## Usage
-
-Run Dev Server (Port 3000)
+开发
 
 ```
-  npm run dev
+npm run dev
 ```
 
-## Build for production
+生产
 
 ```
 npm run build
 ```
-
-## Demo App
-
-The demo app is a very simple Joke generator. Replace with your own code and install other packages as needed
-
-- index.js (main javascript)
-- template.html (template)
-- styles/main.scss (styles)

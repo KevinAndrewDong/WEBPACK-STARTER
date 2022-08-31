@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const BundleAnalyzerPlugin =
@@ -43,12 +44,14 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
+<<<<<<< HEAD
         type: "asset/resource",
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
+<<<<<<< HEAD
       title: "Webpack App",
       filename: "index.html",
       template: "/src/template.html",
